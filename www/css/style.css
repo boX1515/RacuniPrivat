@@ -1,0 +1,244 @@
+body{
+    max-width: 100%;
+    min-width: 818px;
+    margin:0px;
+    padding:0px;
+    font:12px/1.3 'Segoe UI',Arial, sans-serif;
+}
+
+.login_body{
+    max-width: 100%;
+    min-width: 818px;
+    margin:0px;
+    padding:0px;
+    font:12px/1.3 'Segoe UI',Arial, sans-serif;
+    background-image: url(../assets/background/background.jpg);
+    background-size: 100% 100%;
+	background-attachment:fixed;
+    z-index: -1;
+}
+
+/*----- start default page layout styling -------*/
+.content-div{
+    position: relative;
+}
+.side-div{
+    position: fixed;
+    width:300px;
+    height: 150px;
+    top:160;
+    
+}
+
+.top-ul{
+    position: inherit;
+}
+
+.top-ul li{
+    font-size: 20px;
+    text-decoration:none;
+    display:block;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.seperator-div-vertical{
+    position: fixed;
+    width: 1;
+    top:70px;
+    height:100%;
+    left: 300px;
+    background-color: rgb(175, 175, 175);
+}
+
+.seperator-div-horizontal{
+    position: relative;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: auto;
+    height: 1px;
+    background-color: rgb(175, 175, 175);
+    background-color: rgb(175, 175, 175);
+}
+
+.side-header span:hover{
+    color:rgba(13, 128, 227, 0.97);
+}
+
+.top-header{
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    background-color: rgb(39, 39, 39);
+    z-index: 10000;
+}
+
+.main-div{
+    position:relative;
+    top:100px;
+    padding: 0;
+    margin:0;
+    height: 100%;
+    margin-left: 350px;
+    margin-right: 25px;
+    
+}
+@media screen and (min-width: 1024px) 
+{
+    
+    .menu-icon{
+        display: none;
+    }
+    .navigation-items{
+        text-decoration: none;
+
+        margin: 0;
+        padding: 0;
+        position: fixed;
+        left:35%;
+    }
+    .navigation-items li{
+        display:inline-block;
+        float: left;
+        position: relative;
+        width: 140px;
+        height: 64px;
+        padding: 3px; 
+        margin-left:0px; 
+        border-right: 1px solid rgb(121, 121, 121);
+        font-size: 35px;
+    }
+    
+    .navigation-items li:first-child{
+        border-left: 1px solid rgb(121, 121, 121);
+    }
+    
+    
+    .navigation-items a{
+        position: relative;
+        top:10px;
+        left:5px;
+        text-decoration: none;
+        color:white;
+        
+        
+    }
+    
+    .navigation-items li:hover{
+        background-color:  rgba(13, 128, 227, 0.97);
+        transition: all linear 0.20s;
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width: 1024px) 
+{
+    /*.top-ul li{
+    font-size: 15px;
+    }*/
+    .navigation-items{
+        display:none;
+    }
+    .menu-icon{
+        position: absolute;
+        background-color: white;
+        font-size: 30px;
+        top:0;
+        right:0;
+        padding: 15.5px 20px
+    }
+    .menu-icon:hover{
+        background-color: rgba(173, 173, 173, 0.98);
+        cursor: pointer;
+    }
+}
+/*----- end default page layout styling -------*/
+
+/*----- start tooltip plugin js ------*/
+
+
+
+/*----- end tooltip plugin js ------*/
+
+/*----- start info styling ------------*/
+
+/*#myChart{
+    position:inherit;
+}*/
+
+/*----- end info styling ------------*/
+
+/*---- start Index styling ------*/
+
+.login_div_form{
+    z-index: 10000;
+    width: 450px;
+    height: 200px;
+    position: relative;
+    margin:auto; /* set to center */
+    top: 32%;
+    border-width: 10px;
+    box-shadow: 0 -0px 3px rgba(0, 0, 0, 0.51);
+    background-color: white;
+}
+
+.login_form{
+    position: inherit;
+    width: 100%;
+    top:20%;
+    
+}
+.login_label, .login_input_text{
+    display:inline-flex;
+    
+}
+
+.login_label {
+    width: 23.5%;
+    font-size: 20px;
+    margin-left: 30px;
+}
+.login_submit{
+    position: relative;
+    left:138px;
+    width: 174px;
+    height: 25px;
+    border-radius: 5px;
+    
+}
+
+.login_submit:hover{
+    background-color:rgba(170, 167, 167, 0.73);
+    cursor: pointer;
+}
+
+.login_seperator{
+    margin-bottom: 10px;
+}
+
+.login_title{
+    position: relative;
+    font-size: 30px;
+    left:40%;
+    top:25px;
+    
+}
+
+/*----- End Index syling --------*/
+
+
+/*----- start footer default syling --------*/
+
+footer{
+    position: relative;
+    z-index: -1;
+    height: 60px;
+    width: 100%;
+    top:150px;
+    border-top-width: medium;
+}
+
+/*----- end footer default syling --------*/
+
